@@ -55,11 +55,11 @@ export default function GxpTrainig() {
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
               <div className="abouts" data-aos="fade-right" >
-                <img className="img-fluid" src="/ebmr2.jpg" />
+                <img className="img-fluid" src="https://img.freepik.com/free-photo/aluminum-tanks-storage-raw-materials-chemical-industry-sterile-conditions-enterprise_645730-641.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-              <h4 className="mb-4 " data-aos="fade-left">At Mediva, science is embedded in our ethos, as we wholeheartedly embrace Research and Development (R&D) as an essential component of our sustainable business strategy. Over the decades, we have invested strongly and strategically in cutting-edge technological advancements and innovative research activities.</h4>
+              <h4 className="mb-4 " data-aos="fade-left"> Igniting Progress: Genomed Pharmaceuticals' Visionary R&D Initiatives</h4>
               {/* <div className="content_container"> */}
                 {/* <ul className="list-group"
                   ref={(ref) => listRefs.current.push(ref)}
@@ -86,7 +86,7 @@ export default function GxpTrainig() {
                   </li>
                 </ul> */}
               {/* </div> */}
-              <div className="containt-data fs-5">Our paramount proficiency resides in our adeptness at excelling in the development of differentiated generic products, bolstered by our specialized teams in formulation development, process chemistry, and analytical development. This prowess significantly contributes to the establishment of a formidable competitive advantage.</div>
+              <div className="containt-data fs-5">Genomed Pharmaceuticals is on the brink of groundbreaking advancements in healthcare. Our R&D division is focused on pioneering new treatments and revolutionizing patient care. By combining innovative science with a dedication to patient needs, we're at the forefront of medical discovery. Join us as we embark on a journey to reimagine what's possible in healthcare.</div>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function GxpTrainig() {
             </div>
             <div className="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
             <div className="h-75 w-75 " data-aos="fade-right" >
-                <img className="img-fluid  rounded" src="/ebmr2.jpg" />
+                <img className="img-fluid  rounded" src="https://img.freepik.com/free-photo/aluminum-tanks-storage-raw-materials-chemical-industry-sterile-conditions-enterprise_645730-641.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
           </div>

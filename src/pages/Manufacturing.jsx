@@ -33,7 +33,7 @@ const Manufacturing = () => {
                     <div className=" g-5 align-items-center slider-img">
                         <div className=" " >
                             <div className="">
-                                <img width="1200px" style={{ borderRadius: "15px 50px", boxShadow: "-5px -5px 9px rgba(184, 184, 184, 0.45) 5px 5px 9px rgba(78, 88, 104, 0.3)" }} className="img-fluid" src="https://media.istockphoto.com/id/1309776504/photo/female-research-scientist-with-bioengineer-working-on-a-personal-computer-with-screen-showing.jpg?s=612x612&w=0&k=20&c=FBI79EWdoWHailbTGvQWBBYOiOfx7owZLWuNnQxuDqo=" />
+                                <img width="1200px" style={{ borderRadius: "15px 50px", boxShadow: "-5px -5px 9px rgba(184, 184, 184, 0.45) 5px 5px 9px rgba(78, 88, 104, 0.3)" }} className="img-fluid" src="https://img.freepik.com/free-photo/aluminum-tanks-storage-raw-materials-chemical-industry-sterile-conditions-enterprise_645730-711.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
                             </div>
                         </div>
                         <div
@@ -42,9 +42,9 @@ const Manufacturing = () => {
                             {/* <div className="home-head rounded-pill  px-3 mb-3">
                 Business Area
               </div> */}
-                            <h1 className="Manu-about">At Mediva Pharma we are passionate about every product we deliver to our customers</h1>
+                            <h1 className="Manu-about">At GENOMED Pharma we are passionate about every product we deliver to our customers</h1>
                             <p className="Manu-para">"Our commitment to manufacturing excellence ensures that patients and healthcare
-                                professionals can trust in the safety and efficacy of every product bearing the Mediva Pharma name.
+                                professionals can trust in the safety and efficacy of every product bearing the GENOMED Pharma name.
                                 We are proud to be at the forefront of the pharmaceutical manufacturing industry,
                                 delivering high-quality medicines that make a difference in people's lives."</p>
 

@@ -84,7 +84,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2012/04/10/17/40/vitamins-26622_1280.png" />
+                <img className="img-fluid" src="https://img.freepik.com/free-photo/packings-pills-capsules-medicines_1339-2252.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
             <div
@@ -170,7 +170,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2018/04/13/18/22/houston-3317202_1280.jpg" />
+                <img className="img-fluid" src="https://img.freepik.com/premium-photo/pharmacist-filling-prescription-pharmacy-drugstore_67340-187.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
           </div>
@@ -187,7 +187,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="aboutsimg">
-                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2018/07/02/19/02/dietary-supplements-3512184_960_720.jpg" />
+                <img className="img-fluid" src="https://img.freepik.com/free-photo/pharmacist-white-uniform-walking-by-shelf-with-medicines-checking-inventory_342744-323.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
 
@@ -281,7 +281,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="https://images.pexels.com/photos/3825578/pexels-photo-3825578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <img className="img-fluid" src="https://img.freepik.com/free-vector/pills-tablets-capsules-blister-realistic-composition-full-pack-blisters-separately-few-pills-each-other-illustration_1284-64764.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
           </div>
@@ -297,7 +297,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2016/11/23/15/14/jars-1853439_1280.jpg" />
+                <img className="img-fluid" src="https://img.freepik.com/premium-photo/different-pills-bottles-pharmaceutical-healthcare-medication-drug-research-labs-concepts-with-copy-space-area_932772-2297.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
 

@@ -82,7 +82,7 @@ function BusinessAreas() {
                         <div className="col-md-9">
                             <div className="container">
                                 <div className="heading-business m-4" data-aos="fade-left">
-                                    We provide comprehensive range of specialty branded generic products targeting broad spectrum of chronic and acute therapies. We clearly understand our customers’ needs and use cutting-edge technology to present innovative solutions.
+                                At Genomed, we are dedicated to advancing healthcare by leveraging our deep expertise in pharmaceuticals. With a mission to improve lives, we focus on developing high-quality and innovative healthcare solutions. Our team of experts works tirelessly to ensure the safety, efficacy, and accessibility of our products. Driven by compassion and backed by science, we are committed to being a trusted partner in health for communities worldwide
                                 </div>
                             </div>
                             <div className="paratwo p-5 mb-4">
