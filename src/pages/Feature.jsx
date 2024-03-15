@@ -1,9 +1,9 @@
 import BreadCrumb from "../components/BreadCrumb";
-import { useEffect, useRef, } from "react";
+import { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function GxpTrainig() {
+export default function GxpTrainig(_props) {
   const listRefs = useRef([]);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export default function GxpTrainig() {
 
   useEffect(() => {
     if (listRefs.current) {
-      ""
+      ("");
     }
     const observers = [];
 
@@ -39,29 +39,46 @@ export default function GxpTrainig() {
   }, []);
   return (
     <>
-      <BreadCrumb page="Feature" />
-
-
-<div className=" col-lg-12 Rd-section">
-  <div className="RD-img pt-2 pb-5">
-    <img src="RD.png" alt="...." style={{ height: "400px", width: "100%", paddingTop: "40px"}} />
-  </div>
-</div>
-
-
-
+      {/* <BreadCrumb page="Research & Development" /> */}
+      <div className="container-fluid pt-5 hero-header">
+        <div className="container pt-5">
+          <div className="row">
+            <h1 className="text-decoration-underline">Research & Development</h1>
+            <div className="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+              <h1 className="display-4 text-dark mb-4 animated slideInRight">
+                {_props.page}
+              </h1>
+            </div>
+            <div className="col-lg-6 align-self-end text-center text-lg-end">
+              <img
+                className="img-fluid "
+                src="/research1.png"
+                alt=""
+                // style={{ "max-height": "300px" }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container-fluid section2  py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-              <div className="abouts" data-aos="fade-right" >
-                <img className="img-fluid" src="https://img.freepik.com/free-photo/aluminum-tanks-storage-raw-materials-chemical-industry-sterile-conditions-enterprise_645730-641.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
+              <div className="abouts" data-aos="fade-right">
+                <img
+                  className="img-fluid"
+                  src="https://img.freepik.com/free-photo/aluminum-tanks-storage-raw-materials-chemical-industry-sterile-conditions-enterprise_645730-641.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph"
+                />
               </div>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-              <h4 className="mb-4 " data-aos="fade-left"> Igniting Progress: Genomed Pharmaceuticals' Visionary R&D Initiatives</h4>
+              <h4 className="mb-4 " data-aos="fade-left">
+                {" "}
+                Igniting Progress: Genomed Pharmaceuticals' Visionary R&D
+                Initiatives
+              </h4>
               {/* <div className="content_container"> */}
-                {/* <ul className="list-group"
+              {/* <ul className="list-group"
                   ref={(ref) => listRefs.current.push(ref)}
                 >
                   <li className="list-group-item" data-aos="fade-left">
@@ -86,29 +103,54 @@ export default function GxpTrainig() {
                   </li>
                 </ul> */}
               {/* </div> */}
-              <div className="containt-data fs-5">Genomed Pharmaceuticals is on the brink of groundbreaking advancements in healthcare. Our R&D division is focused on pioneering new treatments and revolutionizing patient care. By combining innovative science with a dedication to patient needs, we're at the forefront of medical discovery. Join us as we embark on a journey to reimagine what's possible in healthcare.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="container-fluid py-5">
-        <div className="container" style={{background:"#AFEEEE",paddingLeft:"20px", paddingTop:"30px", paddingBottom:"30px", borderLeft:"4px solid green"}}>
-          <div className="row align-items-center g-5">
-            <div className="col-lg-9  wow fadeIn" data-wow-delay="0.5s" style={{fontSize: "19px", fontWeight: "500"}}>
-            Our team thrives in an environment conducive to excellence and innovation, which is critical to advancing complex and challenging first-time combination products. The R&D team actively engages in projects from concept to Phase IV studies, as well as monitoring market acceptance and post-launch status for comprehensive insights.
-            </div>
-            <div className="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-            <div className="h-75 w-75 " data-aos="fade-right" >
-                <img className="img-fluid  rounded" src="https://img.freepik.com/free-photo/aluminum-tanks-storage-raw-materials-chemical-industry-sterile-conditions-enterprise_645730-641.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
+              <div className="containt-data fs-5">
+                Genomed Pharmaceuticals is on the brink of groundbreaking
+                advancements in healthcare. Our R&D division is focused on
+                pioneering new treatments and revolutionizing patient care. By
+                combining innovative science with a dedication to patient needs,
+                we're at the forefront of medical discovery. Join us as we
+                embark on a journey to reimagine what's possible in healthcare.
               </div>
             </div>
           </div>
         </div>
       </div>
 
-
+      <div className="container-fluid py-5">
+        <div
+          className="container"
+          style={{
+            background: "#AFEEEE",
+            paddingLeft: "20px",
+            paddingTop: "30px",
+            paddingBottom: "30px",
+            borderLeft: "4px solid green",
+          }}
+        >
+          <div className="row align-items-center g-5">
+            <div
+              className="col-lg-9  wow fadeIn"
+              data-wow-delay="0.5s"
+              style={{ fontSize: "19px", fontWeight: "500" }}
+            >
+              Our team thrives in an environment conducive to excellence and
+              innovation, which is critical to advancing complex and challenging
+              first-time combination products. The R&D team actively engages in
+              projects from concept to Phase IV studies, as well as monitoring
+              market acceptance and post-launch status for comprehensive
+              insights.
+            </div>
+            <div className="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+              <div className="h-75 w-75 " data-aos="fade-right">
+                <img
+                  className="img-fluid  rounded"
+                  src="https://img.freepik.com/free-photo/aluminum-tanks-storage-raw-materials-chemical-industry-sterile-conditions-enterprise_645730-641.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* ----------2nd Part---------- */}
       {/* <div className="container-fluid py-5">

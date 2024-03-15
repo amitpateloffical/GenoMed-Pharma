@@ -35,7 +35,7 @@ function App() {
           <Route path="/footer" element={<Footer />} />
           <Route path="/about" element={<About />} />
           <Route path="/*" element={<PageNotFound />} />
-          <Route path="/features" element={<Feature />} />
+          <Route path="/research" element={<Feature />} />
           <Route path="/contact" element={<Contact />} />
           <Route path='/businessareas' element={<BusinessAreas />} />
           <Route path='/indiabranded' element={<IndiaBranded />} />
